@@ -6,7 +6,7 @@ N×Nの正方形の迷路を生成してスタート、ゴールを設置しま�
 
 # DEMO
 生成された20×20の迷路の例  
-![Mage](https://user-images.githubusercontent.com/51439946/92684232-f117a700-f36f-11ea-8998-97a912dad374.jpg)
+![Mage](https://user-images.githubusercontent.com/51439946/92684313-215f4580-f370-11ea-8764-8f233a5b0d99.jpg)
 
 # Requirement
 numpy  
