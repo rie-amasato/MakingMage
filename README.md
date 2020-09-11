@@ -14,8 +14,12 @@ random
 PIL  
 
 # Usage  
-mkMage(N)  
-N×Nの大きさの2次元配列内で迷路を生成する  
-そのご、PILで10×Nのサイズの画像を作り1マスあたり10×10のサイズで壁を描画します
+pip install git+https://github.com/Yumi-Amahane/MakingMage  
+でインストールできます
+import MakingMage  
+MakingMage.Mage(int N,str Title)  
+の関数でN×Nの大きさの2次元配列内で迷路を生成
+引数Titleが渡されているとき、Title.jpgという名前の生成した迷路を画像出力します  
+(Titleは-1以外)
 
 (c)Yumi-Amahane
