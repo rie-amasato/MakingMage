@@ -15,11 +15,13 @@ PIL
 
 # Usage  
 pip install git+https://github.com/Yumi-Amahane/MakingMage  
-でインストールできます
+でインストールできます  
 import MakingMage  
 MakingMage.Mage(int N,str Title)  
-の関数でN×Nの大きさの2次元配列内で迷路を生成
+  
+N×Nの大きさの2次元配列内で迷路を生成
 引数Titleが渡されているとき、Title.jpgという名前の生成した迷路を画像出力します  
-(Titleは-1以外)
-
+(Titleは-1以外)  
+出力配列では0が地面、2が壁、3,4がスタート、ゴールになっています  
+  
 (c)Yumi-Amahane
