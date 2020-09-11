@@ -223,6 +223,7 @@ def MakingMage(Length=30,picout="NoOut"):
 	return M
 
 def main():
-	pass
+	MakingMage(30,1)
+	
 if __name__ == '__main__':
-    main()
+	main()
