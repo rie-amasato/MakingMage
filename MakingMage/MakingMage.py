@@ -214,6 +214,7 @@ def mkImg(m):
 	        if m[x][y]==4:
 	            draw.rectangle((x*10,y*10,x*10+10,y*10+10),fill=(0,256,0))
 	im.save("Mage.jpg")
+	return 0
 
 def MakingMage(Length=30,picout="NoOut"):
 	M=mkMage(Length)
