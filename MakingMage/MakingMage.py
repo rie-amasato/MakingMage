@@ -220,3 +220,6 @@ def main(Length=30,picopt=0)
 	if picout!=0:
 		mkImg(M)
 	return M
+
+if __name__=="__main__":
+	main():
