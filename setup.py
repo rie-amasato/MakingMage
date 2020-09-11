@@ -6,5 +6,5 @@ setuptools.setup(
     author="Yumi-Amahane",
     description="Making Mage Program",
     url="https://github.com/Yumi-Amahane/MakingMage",
-    packages=["MakingMage"]
+    py_modules=["MakingMage"]
 )
