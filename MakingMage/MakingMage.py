@@ -222,4 +222,4 @@ def main(Length=30,picopt=0)
 	return M
 
 if __name__=="__main__":
-	main():
+	main()
