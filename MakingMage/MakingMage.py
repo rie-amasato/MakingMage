@@ -216,7 +216,7 @@ def mkImg(m):
 	im.save("Mage.jpg")
 	return 0
 
-def MakingMage(Length=30,picout="NoOut"):
+def Mage(Length=30,picout="NoOut"):
 	M=mkMage(Length)
 	if picout!="NoOut":
 		mkImg(M)
