@@ -222,5 +222,7 @@ def MakingMage(Length=30,picout="NoOut"):
 		mkImg(M)
 	return M
 
+def main():
+	pass
 if __name__ == '__main__':
-    MakingMage()
+    main()
