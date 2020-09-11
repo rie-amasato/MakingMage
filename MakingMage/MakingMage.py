@@ -215,7 +215,7 @@ def mkImg(m):
 	            draw.rectangle((x*10,y*10,x*10+10,y*10+10),fill=(0,256,0))
 	im.save("Mage.jpg")
 
-def main(Length=30,picopt=0)
+def main(Length=30,picopt=0):
 	M=mkMage(Length)
 	if picout!=0:
 		mkImg(M)
