@@ -202,7 +202,7 @@ def mkMage(N):
                         G-=1
     return m
 
-def mkImg(m):
+def mkImg(m,picout):
 	im = Image.new('RGB', (len(m)*10, len(m[0])*10), (256,256,256))
 	draw = ImageDraw.Draw(im)
 	for x in range(len(m)):
@@ -213,14 +213,15 @@ def mkImg(m):
 	            draw.rectangle((x*10,y*10,x*10+10,y*10+10),fill=(256,0,0))
 	        if m[x][y]==4:
 	            draw.rectangle((x*10,y*10,x*10+10,y*10+10),fill=(0,256,0))
-	im.save("Mage.jpg")
+	if picout!=-1:
+		im.save(str(picout)+".jpg")
 	return 0
 
 
-def Mage(Length=30,picout="NoOut"):
+def Mage(Length=30,picout=-1):
 	M=mkMage(Length)
 	if picout!="NoOut":
-		mkImg(M)
+		mkImg(M,picout)
 	return M
 
 def main():
