@@ -182,7 +182,7 @@ def mkMage(N):
             
     ST=1#random.randint(1,STGen)
     G=STGen-1#random.randint(1,STGen)-1
-    print(ST,G)
+    #print(ST,G)
     for x in range(1,len(m)-1):
         for y in range(1,len(m[0])-1):
             if m[x][y]==0:
@@ -215,11 +215,8 @@ def mkImg(m):
 	            draw.rectangle((x*10,y*10,x*10+10,y*10+10),fill=(0,256,0))
 	im.save("Mage.jpg")
 
-def main(Length=30,picopt=0):
+def mkMage(Length=30,picopt=0):
 	M=mkMage(Length)
 	if picout!=0:
 		mkImg(M)
 	return M
-
-if __name__=="__main__":
-	main()
