@@ -9,6 +9,6 @@ setuptools.setup(
     
     packages=["MakingMage"],
     entry_points = {
-        'console_scripts': ['MakingMage = MakingMage.MakingMage:main']
+        'console_scripts': ['MakingMage = MakingMage.MakingMage:MakingMage']
     }
 )
