@@ -79,7 +79,7 @@ public class mkdangeon : MonoBehaviour {
 		return(true);
 	}
 
-	int[,] mkMage(int N){
+	public int[,] mkMage(int N){
 		int [,] map=Reset(N);
 		for (int LIMIT=0;LIMIT<1000;LIMIT+=1){
 			int cnt=0;
