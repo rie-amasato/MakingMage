@@ -29,6 +29,3 @@ mkdangeon.cs
 mkMage(int N)  
 でN平方の迷路配列を生成  
 必要に応じてGetComponentで拾う  
-
-  
-(c)Yumi-Amahane
